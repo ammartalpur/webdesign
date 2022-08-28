@@ -1,0 +1,123 @@
+@media  only screen and (max-width: 425px) {
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .who{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .who-left{
+        width: 20rem;
+    }
+    .who-left h2, .reachme h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+
+    }
+    .who .who-left img{
+        width: 20rem;
+    }
+    .who .who-right{
+        display: none;
+    }
+
+    .myWork .up{
+        margin-top: 4rem;
+        display: block;
+    }
+
+    .myWork .down{
+        margin-top: 8rem;
+        /* display: block; */
+        margin-left: 0;
+    }
+
+    .myWork .up-left, .myWork .up .up-right, .myWork .down{
+        margin-left: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myWork .up .up-left .word , .myWork .up .up-right .word , .myWork .down .word {
+        margin-left: 1px;
+    }
+
+    .myWork .up .up-left img , .myWork .up .up-right img  , .myWork .down img {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 9rem;
+        height: 8rem
+    }
+
+    .offer-work, .reachme{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offer h3{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    
+    }
+    .right , .right-two{
+        margin-top: 2rem;
+    }
+    .offer-work-middle , .offer-work-right, .offer-work-left{
+        margin-top: 5rem;
+    }
+    .offers h3 , .reachme h3{
+        font-size: medium;
+    }
+
+    .ion-icon-offer{
+        font-size: 5rem;
+    }
+    .reachme , .left , .right , .right-one , .right-two{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+@media  only screen and (min-width:768px) and (max-width:770px) {
+    .who{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .who-left h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    }
+
+    .who-right{
+        margin-top: 8rem;
+    }
+
+    .myWork .up{
+        flex-direction: column;
+    }
+
+    .myWork .down{
+        margin-top: 8rem;
+        margin-left: 0;
+    }
+
+    .myWork .up , .myWork .down{
+        align-self: center;
+    }
+}

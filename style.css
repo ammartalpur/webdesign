@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/bgimg.jpg");
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-left{
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.span{
+    color: #f27c22;
+}
+
+nav .nav-right{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 2rem;   
+    padding: 6px;
+}
+
+nav .nav-right a{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+}
+
+.main-icon{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.m-l{
+    margin-left: 6rem;
+}
+
+.main{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.main h2{
+    font-size: 4rem;
+}
+
+.who{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.who-left{
+    margin-top: 4rem;
+    width: 26rem;
+}
+
+
+
+.who-right img{
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+.myWork{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.myWork h2{
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    align-self: center;
+}
+
+.myWork .up{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.myWork .up-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.myWork .up .up-left img{
+    width: 11rem;
+    height: 10rem;
+    border-radius: 2rem;
+}
+
+.myWork .up .up-left .word{
+    margin-left: 2rem;
+}
+
+.myWork .up .up-left h3{
+    color: #ff66c4;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+.myWork .up .up-left p{
+    width: 15rem;
+}
+
+.myWork .up .up-right{
+    margin-top: 8rem;
+}
+
+.myWork .down{
+    margin-left: 13rem;
+}
+
+
+.myWork .up-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.myWork .up .up-right img{
+    width: 11rem;
+    height: 10rem;
+    border-radius: 2rem;
+}
+
+.myWork .up .up-right .word{
+    margin-left: 2rem;
+}
+
+.myWork .up .up-right h3{
+    color: #ff66c4;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+.myWork .up .up-right p{
+    width: 15rem;
+}
+
+
+.myWork .down{
+    margin-left: 13rem;
+}
+
+.myWork .down{
+    display: flex;
+    flex-direction: row;
+}
+
+.myWork .down img{
+    width: 11rem;
+    height: 10rem;
+    border-radius: 2rem;
+}
+
+.myWork .down h3{
+    color: #ff66c4;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+
+.myWork .down .word{
+    margin-left: 2rem;
+}
+
+
+.myWork .down p{
+    width: 15rem;
+}
+
+
+.offers{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.offers h2{
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    align-self: center;
+}
+
+.offers h3{
+    color: #ff66c4;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
+.offer-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ion-icon-offer{
+    font-size: 10rem;
+}
+
+.reachme{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.reachme h2{
+    font-size: 4rem;
+    color: #f27c22;
+    font-family: 'Oswald', sans-serif;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.right-one h3, .right-two h3{
+    color: #f27c22;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+}
